@@ -154,3 +154,5 @@ jobs:
           if [ "${{ needs.deploy.result }}" = "success" ]; then
             echo "  🌐 http://${{ secrets.SSH_HOST }}"
           fi
+
+          
