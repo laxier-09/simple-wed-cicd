@@ -35,7 +35,7 @@ HTML = """<!DOCTYPE html>
 <body>
     <div class="card">
         <h1>🚀 CI/CD 部署成功！</h1>
-        <p class="version">Flask App v1.0 | 周兰兰 2440666153</p>
+        <p class="version">Flask App v2.0 | 周兰兰 2440666153</p>
         <div class="status">✅ 服务运行正常</div>
         <div class="info">
             <p><span>容器 ID：</span>{{ hostname }}</p>
@@ -66,3 +66,4 @@ def health():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
+    feat: 升级至v2.0版本
